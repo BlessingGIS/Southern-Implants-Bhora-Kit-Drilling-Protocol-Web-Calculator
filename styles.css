@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure the body takes up the full height of the viewport */
+}
+
+.dropdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.dropdown-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.dropdown-group label {
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+/* Dropdown Style */
+select {
+  width: auto; /* Adjust for dynamic sizing */
+  min-width: 150px; /* Ensure dropdown is readable */
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: 35px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+input[type="button"] {
+  background-color: #0f1cdd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  flex-shrink: 0;
+  height: 46px;
+}
+
+input[type="button"]:hover {
+  background-color: #0d1aa6;
+}
+
+#logo {
+  width: 400px;
+  height: auto;
+}
+
+h1 {
+  color: #0f1cdd;
+  text-align: center;
+}
+
+#imageLabel {
+  text-align: center;
+  color: #2200ffed; /* Adjust color */
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#imagesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  overflow: hidden; /* Prevent unnecessary scrollbars */
+}
+
+#imagesContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  display: none; /* Ensure images are hidden initially */
+  object-fit: contain; /* Fit images within container */
+}
+
+#Kit {
+  display: block;
+  margin: auto;
+  position: relative;
+  left: 0; /* Center the default image */
+}
+
+/* Mobile View - Specific Adjustments */
+@media (max-width: 768px) {
+  #imagesContainer {
+    height: auto; /* Allow dynamic height */
+    margin-top: 10px;
+    overflow: visible; /* Add spacing for smaller screens */
+  }
+
+  #imagesContainer img {
+    display: none; /* Hide all images initially */
+    max-width: 100%; /* Scale images properly */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto;
+    object-fit: contain; /* Center images */
+  }
+
+  #Kit {
+    max-width: 90%; /* Ensure the default image scales properly */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto;
+  }
+}
