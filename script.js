@@ -577,8 +577,8 @@ printButton.style.display = "inline-block"; // Show the print button
   }
   // Error handling if no valid combinations are found
   if (!validCombination) {
-    alert("Error: You have selected invalid combinations. Most likely selected implant system has no such length(Do not mix up 8.5/8 and 11.5/11).");
-  }
+    alert("Error: You have selected invalid combinations-Check your catalogue first to be sure");
+}
 }
 
 // Function to filter the Implant Diameter based on Implant System
@@ -628,7 +628,7 @@ function filterDiameters() {
       });
   }
 
-  if (implantSystem === "Provata") {
+  if (implantSystem === "Internal Hex(Provata)") {
       allOptions.forEach(option => {
           if (!["3.3(3M)", "4(M)", "5(M-P45)"].includes(option.value)) {
               option.style.display = "none";
@@ -660,7 +660,7 @@ function filterDiameters() {
       });
   }
 
-  if (implantSystem === "M-Series") {
+  if (implantSystem === "Internal Hex(M-Series)") {
       allOptions.forEach(option => {
           if (!["3.7(IM-T37)", "4.2(IM-T42)", "5(IM-T50)"].includes(option.value)) {
               option.style.display = "none";
