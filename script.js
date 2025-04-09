@@ -28,83 +28,83 @@ function applyConditions() {
   // Conditions based on implant system, diameter, and implant
   if (implant === "IP-8.5") {
       document.getElementById("IP-8.5").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button      
   } else if (implant === "IP-10") {
       document.getElementById("IP-10").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button       
   } else if (implant === "IP-11.5") {
       document.getElementById("IP-11.5").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button      
   } else if (implant === "IP-13") {
         document.getElementById("IP-13").style.display = "block";
-        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button        
   } else if (implant === "IP-15") {
         document.getElementById("IP-15").style.display = "block";
-        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button         
   } else if (implant === "IBNT-8.5") {
         document.getElementById("IBNT-8.5").style.display = "block";
-        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button         
   } else if (implant === "IBNT-10") {
         document.getElementById("IBNT-10").style.display = "block";
-        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button
   } else if (implant === "IBNT-11.5") {
           document.getElementById("IBNT-11.5").style.display = "block";
-          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button          
   } else if (implant === "IBNT-13") {
           document.getElementById("IBNT-13").style.display = "block";
-          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button          
   } else if (implant === "IBNT-15") {
             document.getElementById("IBNT-15").style.display = "block";
-            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
       printButton.style.display = "inline-block"; // Show the print button            
-  } else if (implant === "IBT-8.5") {
-            document.getElementById("IBT-8.5").style.display = "block";
-            imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "IBT/IBR-8.5") {
+            document.getElementById("IBT/IBR-8.5").style.display = "block";
+            imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button            
-  } else if (implant === "IBT-10") {
-              document.getElementById("IBT-10").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "IBT/IBR-10") {
+              document.getElementById("IBT/IBR-10").style.display = "block";
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button             
-  } else if (implant === "IBT-11.5") {
-              document.getElementById("IBT-11.5").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "IBT/IBR-11.5") {
+              document.getElementById("IBT/IBR-11.5").style.display = "block";
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button              
-  } else if (implant === "IBT-13") {
-              document.getElementById("IBT-13").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "IBT/IBR-13") {
+              document.getElementById("IBT/IBR-13").style.display = "block";
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button             
-  } else if (implant === "IBT-15") {
-              document.getElementById("IBT-15").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "IBT/IBR-15") {
+              document.getElementById("IBT/IBR-15").style.display = "block";
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button              
-  } else if (implant === "BAT-8.5") {
-                document.getElementById("BAT-8.5").style.display = "block";
-                imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "BAT/BAR-8.5") {
+                document.getElementById("BAT/BAR-8.5").style.display = "block";
+                imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button
-  } else if (implant === "BAT-10") {
-                document.getElementById("BAT-10").style.display = "block";
-                imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "BAT/BAR-10") {
+                document.getElementById("BAT/BAR-10").style.display = "block";
+                imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button                                             
-  } else if (implant === "BAT-11.5") {
-                document.getElementById("BAT-11.5").style.display = "block";
-                imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "BAT/BAR-11.5") {
+                document.getElementById("BAT/BAR-11.5").style.display = "block";
+                imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button               
-  } else if (implant === "BAT-13") {
-                document.getElementById("BAT-13").style.display = "block";
-                imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "BAT/BAR-13") {
+                document.getElementById("BAT/BAR-13").style.display = "block";
+                imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button               
-  } else if (implant === "BAT-15") {
-                  document.getElementById("BAT-15").style.display = "block";
-                  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  } else if (implant === "BAT/BAR-15") {
+                  document.getElementById("BAT/BAR-15").style.display = "block";
+                  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
       printButton.style.display = "inline-block"; // Show the print button              
 } else if (implant === "SP3508") {
     document.getElementById("SP3508").style.display = "block";
@@ -112,463 +112,467 @@ function applyConditions() {
     printButton.style.display = "inline-block"; // Show the print button       
 } else if (implant === "SP3510") {
     document.getElementById("SP3510").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button      
 } else if (implant === "SP3511") {
       document.getElementById("SP3511").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button        
 } else if (implant === "SP3513") {
       document.getElementById("SP3513").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button         
 } else if (implant === "SP3516") {
       document.getElementById("SP3516").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button         
 } else if (implant === "SP4008") {
       document.getElementById("SP4008").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "SP4010") {
         document.getElementById("SP4010").style.display = "block";
-        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button          
 } else if (implant === "SP4011") {
         document.getElementById("SP4011").style.display = "block";
-        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+        imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button          
 } else if (implant === "SP4013") {
           document.getElementById("SP4013").style.display = "block";
-          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button            
 } else if (implant === "SP4016") {
           document.getElementById("SP4016").style.display = "block";
-          imageLabel.innerHTML = `Drilling protocol for: ${implant} - Drill Marked by green M/H is only used in Medium/Hard bone`;
+          imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
     printButton.style.display = "inline-block"; // Show the print button            
 } else if (implant === "SP5008") {
             document.getElementById("SP5008").style.display = "block";
-            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+            imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button             
 } else if (implant === "SP5010") {
             document.getElementById("SP5010").style.display = "block";
-            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button              
 } else if (implant === "SP5011") {
             document.getElementById("SP5011").style.display = "block";
-            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+            imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button             
 } else if (implant === "SP5013") {
             document.getElementById("SP5013").style.display = "block";
-            imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+            imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button              
 } else if (implant === "SP5016") {
               document.getElementById("SP5016").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "DCT3009") {
               document.getElementById("DCT3009").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "DCT3011") {
               document.getElementById("DCT3011").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "DCT3013") {
               document.getElementById("DCT3013").style.display = "block";
-              imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+              imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "DCT3015") {
                 document.getElementById("DCT3015").style.display = "block";
-                imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+                imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
     printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "DCT3508") {
     document.getElementById("DCT3508").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "DCT3509") {
     document.getElementById("DCT3509").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "DCT3511") {
     document.getElementById("DCT3511").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "DCT3513") {
     document.getElementById("DCT3513").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "DCT3515") {
       document.getElementById("DCT3515").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button   
 } else if (implant === "DCT4008") {
     document.getElementById("DCT4008").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "DCT4009") {
     document.getElementById("DCT4009").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "DCT4011") {
     document.getElementById("DCT4011").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "DCT4013") {
     document.getElementById("DCT4013").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "DCT4015") {
       document.getElementById("DCT4015").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
-} else if (implant === "DCT5009") {
-    document.getElementById("DCT5009").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+} else if (implant === "DCR5008") {
+  document.getElementById("DCR5008").style.display = "block";
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
+printButton.style.display = "inline-block";
+} else if (implant === "DCT/DCR5009") {
+    document.getElementById("DCT/DCR5009").style.display = "block";
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
-} else if (implant === "DCT5011") {
-    document.getElementById("DCT5011").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+} else if (implant === "DCT/DCR5011") {
+    document.getElementById("DCT/DCR5011").style.display = "block";
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
-} else if (implant === "DCT5013") {
-    document.getElementById("DCT5013").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+} else if (implant === "DCT/DCR5013") {
+    document.getElementById("DCT/DCR5013").style.display = "block";
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
-} else if (implant === "DCT5015") {
-      document.getElementById("DCT5015").style.display = "block";
-      imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+} else if (implant === "DCT/DCR5015") {
+      document.getElementById("DCT/DCR5015").style.display = "block";
+      imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "PRO308") {
     document.getElementById("PRO308").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "PRO310") {
   document.getElementById("PRO310").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "PRO311") {
   document.getElementById("PRO311").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "PRO313") {
   document.getElementById("PRO313").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "PRO315") {
     document.getElementById("PRO315").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "PRO408") {
     document.getElementById("PRO408").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "PRO410") {
   document.getElementById("PRO410").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "PRO411") {
   document.getElementById("PRO411").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "PRO413") {
   document.getElementById("PRO413").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "PRO415") {
     document.getElementById("PRO415").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button  
 } else if (implant === "PRO508") {
     document.getElementById("PRO508").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in soft bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "PRO510") {
   document.getElementById("PRO510").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "PRO511") {
   document.getElementById("PRO511").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "PRO513") {
   document.getElementById("PRO513").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "PRO515") {
     document.getElementById("PRO515").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "IM-T3708") {
     document.getElementById("IM-T3708").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IM-T3710") {
   document.getElementById("IM-T3710").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IM-T3711") {
   document.getElementById("IM-T3711").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IM-T3713") {
   document.getElementById("IM-T3713").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IM-T3715") {
     document.getElementById("IM-T3715").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button  
 } else if (implant === "IM-T4208") {
     document.getElementById("IM-T4208").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IM-T4210") {
   document.getElementById("IM-T4210").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IM-T4211") {
   document.getElementById("IM-T4211").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IM-T4213") {
   document.getElementById("IM-T4213").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IM-T4215") {
     document.getElementById("IM-T4215").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "IM-T5008") {
     document.getElementById("IM-T5008").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IM-T5010") {
   document.getElementById("IM-T5010").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IM-T5011") {
   document.getElementById("IM-T5011").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IM-T5013") {
   document.getElementById("IM-T5013").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IM-T5015") {
     document.getElementById("IM-T5015").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "ITT408") {
     document.getElementById("ITT408").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "ITT410") {
   document.getElementById("ITT410").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "ITT412") {
   document.getElementById("ITT412").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in soft bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "ITT414") {
   document.getElementById("ITT414").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "ITT508") {
     document.getElementById("ITT508").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "ITT510") {
   document.getElementById("ITT510").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "ITT512") {
   document.getElementById("ITT512").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "ITT514") {
   document.getElementById("ITT514").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IA-LH-35-8") {
     document.getElementById("IA-LH-35-8").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IA-LH-35-10") {
   document.getElementById("IA-LH-35-10").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IA-LH-35-11.5") {
   document.getElementById("IA-LH-35-11.5").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IA-LH-35-13") {
   document.getElementById("IA-LH-35-13").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IA-LH-35-16") {
     document.getElementById("IA-LH-35-16").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IA-LH-43-8") {
     document.getElementById("IA-LH-43-8").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IA-LH-43-10") {
   document.getElementById("IA-LH-43-10").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IA-LH-43-11.5") {
   document.getElementById("IA-LH-43-11.5").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IA-LH-43-13") {
   document.getElementById("IA-LH-43-13").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IA-LH-43-16") {
     document.getElementById("IA-LH-43-16").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IA-LH-50-8") {
     document.getElementById("IA-LH-50-8").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IA-LH-50-10") {
   document.getElementById("IA-LH-50-10").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IA-LH-50-11.5") {
   document.getElementById("IA-LH-50-11.5").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IA-LH-50-13") {
   document.getElementById("IA-LH-50-13").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD  bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IA-LH-50-16") {
     document.getElementById("IA-LH-50-16").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} - Counterbore(Apex widening) marked by a red rectangle is OPTIONAL &  for use in HARD bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-DC30/EX30-3708") {
     document.getElementById("IV-DC30/EX30-3708").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-DC30-3710") {
   document.getElementById("IV-DC30-3710").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IV-DC30-3711") {
   document.getElementById("IV-DC30-3711").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-DC30-3713") {
   document.getElementById("IV-DC30-3713").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-DC30-3715") {
     document.getElementById("IV-DC30-3715").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "IV-DC35-4508") {
     document.getElementById("IV-DC35-4508").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-DC35-4510") {
   document.getElementById("IV-DC35-4510").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IV-DC35-4511") {
   document.getElementById("IV-DC35-4511").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-DC35-4513") {
   document.getElementById("IV-DC35-4513").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-DC35-4515") {
     document.getElementById("IV-DC35-4515").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "IV-DC40-5008") {
     document.getElementById("IV-DC40-5008").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-DC40-5010") {
   document.getElementById("IV-DC40-5010").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IV-DC40-5011") {
   document.getElementById("IV-DC40-5011").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-DC40-5013") {
   document.getElementById("IV-DC40-5013").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-DC40-5015") {
     document.getElementById("IV-DC40-5015").style.display = "block";
-    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+    imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-EX30-3708") {
   document.getElementById("IV-EX30-3708").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-EX30-3710") {
 document.getElementById("IV-EX30-3710").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IV-EX30-3711") {
 document.getElementById("IV-EX30-3711").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-EX30-3713") {
 document.getElementById("IV-EX30-3713").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-EX30-3715") {
   document.getElementById("IV-EX30-3715").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "IV-EX35-4508") {
   document.getElementById("IV-EX35-4508").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-EX35-4510") {
 document.getElementById("IV-EX35-4510").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IV-EX35-4511") {
 document.getElementById("IV-EX35-4511").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-EX35-4513") {
 document.getElementById("IV-EX35-4513").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-EX35-4515") {
   document.getElementById("IV-EX35-4515").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Counterbore(Apex widening) marked by red H or M is OPTIONAL & NOT for use in soft bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button 
 } else if (implant === "IV-EX40-5008") {
   document.getElementById("IV-EX40-5008").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 } else if (implant === "IV-EX40-5010") {
 document.getElementById("IV-EX40-5010").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button                                             
 } else if (implant === "IV-EX40-5011") {
 document.getElementById("IV-EX40-5011").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-EX40-5013") {
 document.getElementById("IV-EX40-5013").style.display = "block";
-imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button               
 } else if (implant === "IV-EX40-5015") {
   document.getElementById("IV-EX40-5015").style.display = "block";
-  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by green M/H is only used in Medium/Hard bone`;
+  imageLabel.innerHTML = `Drilling protocol for: ${implant} : Drill Marked by overlayed(orange circle and red rectangle) is only used in Medium/Hard bone`;
 printButton.style.display = "inline-block"; // Show the print button
 }
   // Add other conditions as per your requirement
@@ -722,14 +726,14 @@ function filterImplants() {
   }
   if (diameter === "4(IB)") {
     allOptions.forEach(option => {
-        if (!["IBT-8.5", "IBT-10", "IBT-11.5", "IBT-13", "IBT-15"].includes(option.value)) {
+        if (!["IBT/IBR-8.5", "IBT/IBR-10", "IBT/IBR-11.5", "IBT/IBR-13", "IBT/IBR-15"].includes(option.value)) {
             option.style.display = "none"; // Hide non-matching implants
         }
     });
   }
   if (diameter === "5(BA)") {
     allOptions.forEach(option => {
-        if (!["BAT-8.5", "BAT-10", "BAT-11.5", "BAT-13", "BAT-15"].includes(option.value)) {
+        if (!["BAT/BAR-8.5", "BAT/BAR-10", "BAT/BAR-11.5", "BAT/BAR-13", "BAT/BAR-15"].includes(option.value)) {
             option.style.display = "none"; // Hide non-matching implants
         }
     });
@@ -757,7 +761,7 @@ function filterImplants() {
     }  
     if (diameter === "5(DC5)") {
       allOptions.forEach(option => {
-          if (!["DCT5009", "DCT5011", "DCT5013", "DCT5015"].includes(option.value)) {
+          if (!["DCR5008", "DCT/DCR5009", "DCT/DCR5011", "DCT/DCR5013", "DCT/DCR5015"].includes(option.value)) {
               option.style.display = "none"; // Hide non-matching implants
           }
       });
