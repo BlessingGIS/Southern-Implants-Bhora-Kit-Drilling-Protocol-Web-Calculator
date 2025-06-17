@@ -1,4 +1,4 @@
-# Hi there, I'm BlessingGIS 👋
+# Hi there, I'm Blessing Mapadza 👋
 
 🌍 **GIS Analyst | Data Scientist | Data Engineer | Cloud Computing Enthusiast**
 
